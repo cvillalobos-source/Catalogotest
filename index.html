@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo VST</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="pantalla-inicial">
+    <img src="img/VSTLOGO.png" alt="VST Logo" />
+  </div>
+
+  <section id="howto">
+    <img id="vozol-logo-center" src="img/VOZOLLOGO.png" alt="Vozol Logo" />
+    <img id="clic-vst" class="clic-icon" src="img/clic.png" />
+    <img id="clic-vozol" class="clic-icon" src="img/clic.png" />
+    <div id="hint-vst" class="hint">VUELVE<br>AL INICIO</div>
+    <div id="hint-vozol" class="hint">SELECCIONA<br>TU MARCA FAVORITA</div>
+  </section>
+
+  <section id="home-grid"></section>
+
+  <main id="contenido"></main>
+
+  <div class="barra-inferior" id="barra-info">
+    <div class="espacio">
+      <img src="img/pufflogo.png" alt="Puff Logo">
+      <div id="info-puffs">Puffs</div>
+    </div>
+    <div class="espacio">
+      <img src="img/boostlogo.png" alt="Boost Logo">
+      <div id="info-boost">Boost</div>
+    </div>
+    <div class="espacio">
+      <img src="img/batterylogo.png" alt="Battery Logo">
+      <div id="info-bateria">Batería</div>
+    </div>
+    <div class="espacio">
+      <img src="img/flamelogo.png" alt="Flame Logo">
+      <div id="info-intensidad">Intensidad</div>
+    </div>
+  </div>
+
+  <div id="admin-panel">
+    <h3>Modo Admin</h3>
+    <ul id="admin-list"></ul>
+    <button onclick="document.getElementById('admin-panel').classList.remove('visible')">Cerrar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
