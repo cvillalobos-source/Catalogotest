@@ -1,0 +1,46 @@
+[
+  {
+    "marca": "Marca A",
+    "logo": "img/marcaA_logo.png",
+    "barra": {
+      "puffs": 6000,
+      "boost": "No",
+      "bateria": "650mAh",
+      "intensidad": "5%"
+    },
+    "productos": [
+      {
+        "nombre": "Sabor 1",
+        "imagen": "img/marcaA_sabor1.png",
+        "estado": "disponible"
+      },
+      {
+        "nombre": "Sabor 2",
+        "imagen": "img/marcaA_sabor2.png",
+        "estado": "agotado"
+      }
+    ]
+  },
+  {
+    "marca": "Marca B",
+    "logo": "img/marcaB_logo.png",
+    "barra": {
+      "puffs": 8000,
+      "boost": "Sí",
+      "bateria": "800mAh",
+      "intensidad": "3%"
+    },
+    "productos": [
+      {
+        "nombre": "Sabor X",
+        "imagen": "img/marcaB_saborX.png",
+        "estado": "disponible"
+      },
+      {
+        "nombre": "Sabor Y",
+        "imagen": "img/marcaB_saborY.png",
+        "estado": "disponible"
+      }
+    ]
+  }
+]
